@@ -1,7 +1,7 @@
 pipeline{
     agent any
-    enviornment{
-        APPLIUCATION_NAME = "Petrol pump"
+    environment{
+        APPLIUCATION_NAME = 'Petrol pump'
     }
 
     stages {
