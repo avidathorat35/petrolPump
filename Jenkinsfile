@@ -2,13 +2,13 @@ pipeline{
     agent any
 
     stages {
-        stege('checkout scm'){
+        stage ('checkout scm'){
             steps{
                 echo 'pulling code from repo'
             }
         }
-        stage('build'){
-            step{
+        stage ('build'){
+            steps{
                 echo 'building project using maven'
             }
         }
