@@ -17,7 +17,7 @@ pipeline{
         }
         stage ('global variavles'){
             steps{
-                echo "${env.BUILD_NUMBER}"
+                echo "Build numberi : ${env.BUILD_NUMBER}"
                 echo "${env.JOB_TYPE}"
             }
         }
