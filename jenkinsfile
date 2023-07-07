@@ -1,7 +1,7 @@
 pipeline{
     agent any
 
-    stages{
+    stages {
         stege('checkout scm'){
             steps{
                 echo 'pulling code from repo'
